@@ -1,39 +1,56 @@
-/* ---------- Downloads ---------- */
+/* ---------- Downloads (Dark Mode) ---------- */
+
+.downloads-bg {
+  background: var(--downloads-color-bg);
+  color: var(--downloads-color-text);
+}
+
 .downloads-list {
   max-width: 600px;
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px auto 0 auto;
 }
 
 .download-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--downloads-color-bg);
+  background: var(--downloads-color-bg-light);
   padding: 14px;
   border-radius: 10px;
   margin-bottom: 14px;
   border: 1px solid var(--downloads-color-border);
 }
 
+.page-title {
+  color: #000;
+}
+
 .file-icon {
   font-size: 30px;
   margin-right: 14px;
+  color: var(--downloads-color-text);
+}
+
+.file-name {
+  color: var(--downloads-color-text);
 }
 
 .file-info p {
-  color: var();
+  color: var(--downloads-color-meta);
   font-size: 13px;
   margin-top: 3px;
 }
 
 .open-btn {
   padding: 6px 12px;
-  background: var(--downloads-color-text);
+  background: var(--downloads-color-bg-light);
   border-radius: 6px;
   font-size: 14px;
+  color: var(--downloads-color-text);
+  border: 1px solid var(--downloads-color-border);
+  cursor: pointer;
 }
 
 .open-btn:hover {
-  background: var(--downloads-color-meta);
+  background: var(--downloads-color-hover);
 }
