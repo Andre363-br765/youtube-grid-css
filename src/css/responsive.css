@@ -1,0 +1,52 @@
+/* ------------------- RESPONSIVO ------------------- */
+
+/* Ajuste sidebar e main em telas menores */
+@media screen and (max-width: 1024px) {
+  main {
+    margin-left: 200px;
+  }
+
+  .sidebar {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    margin-left: 0;
+    padding: 80px 12px 12px;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    border-right: none;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .search {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search input {
+    font-size: 14px;
+  }
+
+  .video-title {
+    font-size: 14px;
+  }
+
+  .meta {
+    font-size: 12px;
+  }
+}

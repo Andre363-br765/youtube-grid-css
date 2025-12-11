@@ -1,0 +1,19 @@
+/* ------------------- VARIÁVEIS ------------------- */
+:root {
+  --color-bg: #fff;
+  --color-bg-light: #f1f1f1;
+  --color-border: #e5e7eb;
+  --color-text: #0f0f0f;
+  --color-meta: #606060;
+  --color-link: #007bff;
+  --color-hover: #e5e5e5;
+
+  --font-main: Arial, sans-serif;
+
+  --sidebar-width: 240px;
+  --topbar-height: 56px;
+
+  --gap-small: 8px;
+  --gap-medium: 14px;
+  --gap-large: 24px;
+}
