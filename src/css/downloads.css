@@ -1,0 +1,39 @@
+/* ---------- Downloads ---------- */
+.downloads-list {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.download-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--downloads-color-bg);
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  border: 1px solid var(--downloads-color-border);
+}
+
+.file-icon {
+  font-size: 30px;
+  margin-right: 14px;
+}
+
+.file-info p {
+  color: var();
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.open-btn {
+  padding: 6px 12px;
+  background: var(--downloads-color-text);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.open-btn:hover {
+  background: var(--downloads-color-meta);
+}

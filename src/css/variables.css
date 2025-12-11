@@ -8,6 +8,14 @@
   --color-link: #007bff;
   --color-hover: #e5e5e5;
 
+  --downloads-color-bg: #181818;
+  --downloads-color-bg-light: #202020;
+  --downloads-color-border: #303030;
+  --downloads-color-text: #eeeeee;
+  --downloads-color-meta: #aaaaaa;
+  --downloads-color-link: #3ea6ff;
+  --downloads-color-hover: #2a2a2a;
+
   --font-main: Arial, sans-serif;
 
   --sidebar-width: 240px;
